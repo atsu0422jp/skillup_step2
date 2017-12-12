@@ -1,0 +1,47 @@
+/* Scss Document */
+body {
+  width: 1050px;
+  font-family: Arial, Helvetica, "sans-serif"; }
+  body h2 {
+    font-size: 18px; }
+  body #header {
+    width: 1050px;
+    height: 60px;
+    background-color: #84C1D9;
+    z-index: 100;
+    position: fixed;
+    font-family: Arial, Helvetica, "sans-serif"; }
+    body #header h1 {
+      float: left;
+      font-size: 24px;
+      margin-left: 30px;
+      margin-top: 12px; }
+    body #header ul {
+      float: right;
+      text-align: left;
+      margin-top: 12px;
+      margin-right: 50px; }
+      body #header ul li {
+        background-color: aliceblue;
+        display: inline-block;
+        padding: 5px 8px;
+        margin-left: 0px; }
+  body #main {
+    width: 100%;
+    height: 800px;
+    padding-top: 60px;
+    background-color: aliceblue;
+    text-align: left; }
+  body .login-message {
+    float: right;
+    text-align: left; }
+    body .login-message div {
+      display: inline; }
+
+.input {
+  overflow: hidden;
+  padding-bottom: 3px;
+  padding-top: 3px; }
+  .input label {
+    float: left;
+    width: 150px; }
